@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            padding: 25px;
+            
+            align-items: center;
+            text-align: center;
+            margin: 24px 10px;
+        }
+        input [text=type]{
+            width: 100%;
+
+        }
+        .logo{
+            align-self: auto;
+        }
+        .border{
+            align-content: center;
+        }
+        @media screen and (min-width:450px) and (max-width:600px)
+        {
+        body{
+            background-color: rgb(154, 126, 126);
+        }
+    }
+    @media screen and (min-width:600px) and (max-width:900px)
+    {
+        body{
+            background-color: rgb(143, 215, 215);
+        } 
+        
+
+    }
+.btn1{
+    background-color: rgb(86, 86, 195);
+    text-decoration-color: aliceblue;
+   cursor: pointer;
+
+}
+
+
+.btn1:hover{
+    opacity: 0.8;
+}
+    </style>
+</head>
+<body>
+    <form class="container">
+        <fieldset class="border">
+            <legend>personal login</legend>
+        <div >
+            
+            <img  class="logo"src="https://tse2.mm.bing.net/th?id=OIP.HfXtvnZ8YoT0b3elURJaKgHaHx&pid=Api&P=0&h=180" alt="notfound" class="img">
+        </div>
+        <div class="formcontainer">
+            <label for="uname"><b>Username</b></label><br>
+            <input type="text" placeholder="enter username" name="username" required><br>
+            <label for="uname"><b>Passward</b></label><br>
+            <input type="password" placeholder="enter password" name="pwd" required><br><br>
+         <button class="btn1" type="submit">login</button><div></div>
+         <a href="">forgotten passward?</a>
+         
+          
+     </div></fieldset>
+    </form>
+</body>
+</html>
